@@ -1,4 +1,5 @@
 const getInfo = (ctx) => {
+  ctx.type = 'application/json'
   ctx.body = {
     code: 200,
     data: [

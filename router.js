@@ -9,6 +9,7 @@ const moyuApi = require('./api/moyu')
 
 router.post('/user', userApi.getUser)
 router.post('/moyu', moyuApi.getInfo)
+router.get('/haha', moyuApi.getInfo)
 
 //  router
 //    .get('/user', controllers.getUsersList)

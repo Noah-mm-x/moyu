@@ -5,8 +5,10 @@
 // const router = new Router()
 const router = require('koa-router')();
 const userApi = require('./api/user')
+const moyuApi = require('./api/moyu')
 
 router.post('/user', userApi.getUser)
+router.post('/moyu', moyuApi.getInfo)
 
 //  router
 //    .get('/user', controllers.getUsersList)
